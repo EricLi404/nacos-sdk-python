@@ -65,7 +65,7 @@ setup(
     ],
     keywords=['nacos', 'nacos-sdk-python'],
     author="nacos",
-    author_email="755063194@qq.com",
+    author_email="me@ericli.top",
     description="Python client for Nacos.",
     long_description=long_description,
     long_description_content_type="text/markdown",
