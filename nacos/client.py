@@ -616,7 +616,7 @@ class NacosClient:
                     raise NacosRequestException("Server is not available.")
                 address, port = server_info
                 server = ":".join([address, str(port)])
-                server_url = "%s://%s" % ("http", server)
+                server_url = "%s://%s" % ("https", server)
                 if python_version_bellow("3"):
                     req = Request(url=server_url + url, data=urlencode(data).encode() if data else None,
                                   headers=all_headers)
