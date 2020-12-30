@@ -1,3 +1,18 @@
+# nacos-sdk-python  https
+
+**由原来的默认使用http改为了默认使用https**
+
+**安装**
+
+```
+ git clone https://github.com/EricLi404/nacos-sdk-python
+ cd nacos-sdk-python && python setup.py install
+```
+
+---------------
+
+
+
 # nacos-sdk-python
 A Python implementation of Nacos OpenAPI.
 
